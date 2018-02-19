@@ -9,8 +9,6 @@ public class Board {
     private Cell[] temp;
 
 
-    // TODO: Place Battleboats appropriately on board and add them to the board's boats
-
     //Board constructor which creates a board of m by n and decides how many battleboats on the board based on how big it is.
     //Initializes battleboat and a 2D board array.
     public Board(int m , int n, boolean debugMode) {
